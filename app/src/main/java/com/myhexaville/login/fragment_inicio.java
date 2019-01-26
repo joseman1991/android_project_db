@@ -21,19 +21,13 @@ public class fragment_inicio extends Fragment {
 
 
 
-    private String lenguajeProgramacion[]=new String[]{"Java","PHP","Python","JavaScript","Ruby","C",
-            "Go","Perl","Pascal"};
+    private String lenguajeProgramacion[]=new String[]{"Bolso","Maleta","Cartera","Bolso"};
 
     private Integer[] imgid={
             R.drawable.java,
-            R.drawable.php,
-            R.drawable.python,
             R.drawable.javascript,
-            R.drawable.ruby,
             R.drawable.c,
-            R.drawable.go,
-            R.drawable.perl,
-            R.drawable.pascal
+            R.drawable.go
     };
 
     private ListView lista;

@@ -24,9 +24,10 @@ public class LenguajeListAdapter extends ArrayAdapter<String> {
     }
 
     public View getView(int posicion, View view, ViewGroup parent){
-
         LayoutInflater inflater=context.getLayoutInflater();
         View rowView=inflater.inflate(R.layout.fila_lista,null,true);
+
+
 
         TextView txtTitle = (TextView) rowView.findViewById(R.id.texto_principal);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);

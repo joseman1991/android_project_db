@@ -20,6 +20,10 @@
             android:id="@+id/nav_compras"
             android:icon="@drawable/ic_shopping_cart"
             android:title="Ver compras" />
+        <item
+            android:id="@+id/users"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="Ver Usuarios" />
     </group>
 
 

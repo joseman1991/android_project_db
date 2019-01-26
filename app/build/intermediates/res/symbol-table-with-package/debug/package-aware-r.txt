@@ -812,11 +812,6 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable pascal
-drawable perl
-drawable php
-drawable python
-drawable ruby
 drawable side_nav_bar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -859,6 +854,7 @@ id blocking
 id bottom
 id button
 id buttonPanel
+id cambiar
 id cancel_action
 id center
 id center_horizontal
@@ -866,6 +862,9 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id clave
+id clave2
+id clave_u
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -874,6 +873,8 @@ id container
 id contenidos
 id contentPanel
 id coordinator
+id coreo_u
+id correo
 id custom
 id customPanel
 id dataBinding
@@ -919,6 +920,8 @@ id italic
 id item_touch_helper_previous_elevation
 id largeLabel
 id left
+id lg_clave
+id lg_correo
 id line1
 id line3
 id listMode
@@ -928,8 +931,10 @@ id masked
 id media_actions
 id message
 id mi_lista
+id mi_lista_user
 id middle
 id mini
+id mirar
 id multiply
 id name
 id nav_agregar
@@ -1029,6 +1034,7 @@ id transition_transform
 id uniform
 id up
 id useLogo
+id users
 id ver
 id view_offset_helper
 id visible
@@ -1091,9 +1097,11 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fila_lista
+layout fila_lista_user
 layout fragment_inicio
 layout fragment_login
 layout fragment_signup
+layout fragment_users
 layout item_layout
 layout nav_header_menu
 layout notification_action

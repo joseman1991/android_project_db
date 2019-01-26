@@ -101,11 +101,17 @@ try {
         int id = item.getItemId();
 
         switch (id){
+            case R.id.users:
+               getSupportFragmentManager().beginTransaction().replace(R.id.contenidos,new fragment_users()).commit();
+                break;
 
+            case R.id.nav_manage:
+                getSupportFragmentManager().beginTransaction().replace(R.id.contenidos,new fragment_inicio()).commit();
+                break;
         }
         /*
         if (id == R.id.nav_camera) {
-         //   getSupportFragmentManager().beginTransaction().replace(R.id.contenidos,new inicioFragmen()).commit();
+          getSupportFragmentManager().beginTransaction().replace(R.id.contenidos,new inicioFragmen()).commit();
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

@@ -984,10 +984,6 @@
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ruby.png.flat",
-        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\drawable\\ruby.png"
-    },
-    {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\74afe31831780a1fa729d79cd300f67d\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -1060,10 +1056,6 @@
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable_php.png.flat",
-        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\drawable\\php.png"
-    },
-    {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_signup.xml.flat",
         "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\layout\\fragment_signup.xml"
     },
@@ -1102,6 +1094,10 @@
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_users.xml.flat",
+        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\layout\\fragment_users.xml"
     },
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -1146,10 +1142,6 @@
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pascal.png.flat",
-        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\drawable\\pascal.png"
     },
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1216,6 +1208,10 @@
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\layout_fila_lista_user.xml.flat",
+        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\layout\\fila_lista_user.xml"
+    },
+    {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -1254,10 +1250,6 @@
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable_python.png.flat",
-        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\drawable\\python.png"
     },
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1554,10 +1546,6 @@
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\JOSE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7cbe24f35c17cf635883f66a062e111a\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\drawable_perl.png.flat",
-        "source": "D:\\Android\\Android-Login-Screen\\app\\src\\main\\res\\drawable\\perl.png"
     },
     {
         "merged": "D:\\Android\\Android-Login-Screen\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
