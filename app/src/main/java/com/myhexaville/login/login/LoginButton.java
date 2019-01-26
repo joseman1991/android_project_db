@@ -9,7 +9,9 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
+import android.os.Build;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.annotation.StringRes;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
@@ -99,6 +101,7 @@ public class LoginButton extends View {
         init();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public LoginButton(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init();
@@ -211,6 +214,7 @@ public class LoginButton extends View {
                 buttonBottom);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -233,7 +237,7 @@ public class LoginButton extends View {
                     false,
                     loginButtonPaint);
 
-            canvas.drawText(getString(R.string.or), loginOrX, buttonCenter + dpToPixels(8), orPaint);
+            canvas.drawText("Ó", loginOrX, buttonCenter + dpToPixels(8), orPaint);
             canvas.drawText(getString(R.string.login), currentLoginX, currentLoginY, loginPaint);
         } else {
             canvas.drawPath(signUpButtonPath, signUpButtonPaint);
@@ -247,7 +251,7 @@ public class LoginButton extends View {
                     false,
                     signUpButtonPaint);
 
-            canvas.drawText(getString(R.string.or), signUpOrX, buttonCenter + dpToPixels(8), orPaint);
+            canvas.drawText("Ó", signUpOrX, buttonCenter + dpToPixels(8), orPaint);
 
             canvas.drawText(getString(R.string.sign_up), currentSignUpTextX, currentSignUpTextY, signUpPaint);
         }

@@ -1,6 +1,7 @@
 package com.myhexaville.login.login;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.myhexaville.login.MenuActivity;
 import com.myhexaville.login.R;
 
 public class LoginFragment extends Fragment implements OnLoginListener{
@@ -30,6 +32,12 @@ public class LoginFragment extends Fragment implements OnLoginListener{
 
     @Override
     public void login() {
-        Toast.makeText(getContext(), "Login", Toast.LENGTH_SHORT).show();
+        try {
+            Intent i = new Intent(getActivity(), MenuActivity.class);
+            startActivity(i);
+            //Toast.makeText(getContext(), "Login", Toast.LENGTH_SHORT).show();
+        }catch (Exception ex){
+            Toast.makeText(getContext(),ex.getMessage(), Toast.LENGTH_SHORT).show();
+        }
     }
 }
